@@ -47,3 +47,27 @@ Follow the setup notes in this repository and adapt paths/settings for your envi
 ## Portfolio Note
 
 This project is valuable because it shows lab discipline. Employers like seeing that security research is done with isolation, documentation, and controlled procedures.
+
+## Employer Review
+
+| Area | Evidence |
+| --- | --- |
+| Role relevance | Malware Analysis / SOC Analyst / Defensive Security Research |
+| Main security lesson | Suspicious files should only be handled inside isolated, reversible lab environments |
+| Defensive value | Shows awareness of containment, VM snapshots, host isolation, and repeatable documentation |
+| Safe scope | Lab planning and configuration notes only; no malware samples are included |
+
+## Professional Lab Checklist
+
+- Keep host-only or isolated networking unless internet access is explicitly required.
+- Snapshot the guest VM before any analysis session.
+- Disable clipboard sharing, shared folders, and drag-and-drop by default.
+- Store reports and indicators separately from live malware samples.
+- Record sample hashes and analysis steps so work can be reviewed later.
+
+## Interview Talking Points
+
+- Why isolation matters in malware-analysis labs.
+- How snapshots support repeatable investigation.
+- What evidence a SOC analyst might extract from sandbox output.
+- How to keep defensive research safe, documented, and authorized.
