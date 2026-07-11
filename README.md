@@ -35,6 +35,8 @@ cd cuckoo-sandbox-setup
 
 Follow the setup notes in this repository and adapt paths/settings for your environment.
 
+Configuration notes: [CONFIGURATION.md](CONFIGURATION.md)
+
 ## Suggested Documentation Sections
 
 - Host machine requirements
